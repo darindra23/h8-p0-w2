@@ -1,0 +1,41 @@
+<!-- SOAL NOMOR 1 -->
+STORE "a" with 2
+STORE "m" with 600
+STORE "EF" without any value
+
+CALCULATE "a" times "m"
+SET "EF" value with calculation result
+DISPLAY "EF"
+
+<!-- SOAL NOMOR 2 -->
+STORE "year" with any value
+
+IF "year" mod 4 EQUAL 0
+    IF "year" mod 100 NOT EQUAL 0
+        DISPLAY " Tahun Kabisat"
+    ELSE
+        DISPLAY "Bukan Tahun Kabisat"
+IF "year" mod 4 EQUAL 0
+    IF "year" mod 100 EQUAL 0
+        IF "year" mod 400 EQUAL 0
+            DISPLAY "Tahun Kabisat"
+        ELSE
+            DISPLAY "Bukan Tahun Kabisat"
+            
+<!-- SOAL NOMOR 3 -->
+STORE "pakaian" with 0
+
+WHILE "pakaian" < 20
+    ADD "pakaian" by 1
+    DO "laundry"
+
+<!-- SOAL NOMOR 4 -->
+STORE "student" with 0
+STORE "kuku panjang"
+
+WHILE "student" < 40
+    ADD "student" by 1
+IF "student" HAS "kuku panjang"
+    DO "hukum"
+ELSE
+    DO "puji"
