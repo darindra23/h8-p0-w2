@@ -10,17 +10,14 @@ DISPLAY "EF"
 <!-- SOAL NOMOR 2 -->
 STORE "year" with any value
 
-IF "year" mod 4 EQUAL 0
-    IF "year" mod 100 NOT EQUAL 0
+IF "year" mod 4 EQUAL 0 AND "year" mod 100 NOT EQUAL 0
         DISPLAY " Tahun Kabisat"
     ELSE
         DISPLAY "Bukan Tahun Kabisat"
-IF "year" mod 4 EQUAL 0
-    IF "year" mod 100 EQUAL 0
-        IF "year" mod 400 EQUAL 0
-            DISPLAY "Tahun Kabisat"
-        ELSE
-            DISPLAY "Bukan Tahun Kabisat"
+IF "year" mod 4 EQUAL 0 AND "year" mod 100 EQUAL 0 AND "year" mod 400 EQUAL 0
+        DISPLAY "Tahun Kabisat"
+    ELSE
+        DISPLAY "Bukan Tahun Kabisat"
             
 <!-- SOAL NOMOR 3 -->
 STORE "pakaian" with 0
