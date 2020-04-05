@@ -1,0 +1,95 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Rizkiewan Januar",
+      "phone_number": "081291433303",
+      "email": "rizkieawan@gmail.com",
+      "category": "Family"
+    },
+    {
+      "id": 2,
+      "name": "Ilham Putera Fadjar",
+      "phone_number": "081213022011",
+      "email": "putra.xyz@gmail.com",
+      "category": "Family"
+    },
+    {
+      "id": 4,
+      "name": "Marina Anggraini",
+      "phone_number": "082123157459",
+      "email": "inadakochan@gmail.com",
+      "category": "Family"
+    },
+    {
+      "id": 5,
+      "name": "Henarivan Andhika",
+      "phone_number": "081988822233",
+      "email": "henarivangaming@gmail.com",
+      "category": "Friends"
+    },
+    {
+      "id": 6,
+      "name": "Fauzan Akbar",
+      "phone_number": "081289598502",
+      "email": "fauzangipil@gmail.com",
+      "category": "Friends"
+    },
+    {
+      "id": 7,
+      "name": "Akbar Akma Daniel",
+      "phone_number": "08129145678",
+      "email": "akbarsick@gmail.com",
+      "category": "Friends"
+    },
+    {
+      "id": 8,
+      "name": "M.Ramadhan",
+      "phone_number": "081289598592",
+      "email": "dongbros@gmail.com",
+      "category": "Friends"
+    },
+    {
+      "id": 9,
+      "name": "M.Restu Dwi",
+      "phone_number": "0812345678",
+      "email": "oddyyy@gmail.com",
+      "category": "Friends"
+    },
+    {
+      "name": "John Doe",
+      "phone_number": "08098888",
+      "email": "john@email.com",
+      "category": "Work",
+      "id": 10
+    },
+    {
+      "name": "Hendy Basar",
+      "phone_number": "081212003031",
+      "email": "hendybasar@gmail.com",
+      "category": "Family",
+      "id": 13
+    },
+    {
+      "name": "Darindra Ramantya Khadifah",
+      "phone_number": "081213022011",
+      "email": "darindra23@gmail.com",
+      "category": "Family",
+      "id": 14
+    },
+    {
+      "name": "Foo Bar",
+      "phone_number": "08098888",
+      "email": "foo@mail.com",
+      "category": "Work",
+      "id": 15
+    },
+    {
+      "name": "Diah Ayu JSH",
+      "phone_number": "082161805924",
+      "email": "diahayujsh18@gmail.com",
+      "category": "Family",
+      "id": 16
+    }
+  ]
+}
